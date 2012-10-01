@@ -15,7 +15,10 @@ Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate
  * On this same page you can edit your repo's <b>README.md</b> which (like this file you are currently reading) records the central documentation for your project.
  * Save your changes to README.md by clicking on the <b>Commit Changes</b> button found at the bottom right corner of the page.
 
-### Setup your computer for remote github use
+### Setup your computer for git 
+  * <code>git config --global user.name  "your.github.account.name"
+  * <code>git config --global user.email "you@place.com"</code>
+ 
 
 ### Clone the project onto your own computer
 
