@@ -44,4 +44,4 @@ Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate
  * Click the <b>Owners</b> button
  * Enter the new user's github id
 
-### 
+### Mon Oct  1 12:48:28 PDT 2012
