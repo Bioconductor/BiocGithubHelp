@@ -15,10 +15,24 @@ Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate
  * On this same page you can edit your repo's <b>README.md</b> which (like this file you are currently reading) records the central documentation for your project.
  * Save your changes to README.md by clicking on the <b>Commit Changes</b> button found at the bottom right corner of the page.
  
-### 'Clone' the project onto your own computer
+### Clone the project onto your own computer
 
  * cd toSomeDirectoryOfYourChoice
- * git clone git://github.com/Bioconductor/githubCribsheet.git
+ * git clone git://github.com/Bioconductor/githubCribsheet.git with these results
+     * a <b>local repo</b> is created 
+     * a <b>working copy</b> is created
+     * thus <b>three</b> versions of the code exist
+    
+### Overview of basic operations
+
+ * Making changes to your <b>working copy</b> propagate them to <b>BOTH</b> of your repos:
+    * Add some text to REAMDE.md, whose contents you originall created at the github website
+    * git diff README.md will report differences between your <b>local repo</b> and your <b>working copy</b>
+    * update the <b>local repo</b>:  
+        <code> git commit -m "added one line, modifying my local working copy" README.md</code>
+    * update <b>github</b>: 
+        <code> git push git@github.com:Bioconductor/githubCribsheet.git</code>
+ 
  
 ### Add a user to your project
 
@@ -28,3 +42,4 @@ Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate
  * Click the <b>Owners</b> button
  * Enter the new user's github id
 
+### 
