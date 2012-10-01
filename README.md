@@ -34,8 +34,10 @@ Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate
         <code> git commit -m "added one line, modifying my local working copy" README.md</code>
     * update <b>github</b>: 
         <code> git push git@github.com:Bioconductor/githubCribsheet.git</code>
- 
- 
+    * make sure your <b>local repo</b> and <b>working copy</b> have a record of the update 
+      you just did to the <b>github repo</b>:   <code>git pull</code>
+
+  
 ### Add a user to your project
 
  * The new user needs a github login id
