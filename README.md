@@ -18,6 +18,7 @@ Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate
 ### Setup your computer for git 
   * <code>git config --global user.name  "your.github.account.name"
   * <code>git config --global user.email "you@place.com"</code>
+  * configure the <b>credential.helper</b>. Alas, this step differs by operating system because passwords are saved in different ways on osx, linux and windows.   Please get the right instructions for your computer at https://help.github.com/articles/set-up-git
  
 
 ### Clone the project onto your own computer
