@@ -4,7 +4,7 @@ Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate
 
    https://github.com/Bioconductor
    
-### To create your own project (aka repository, or 'repo') do these things:
+### Create your own project (aka repository, or 'repo'):
 
  * Register as a user:  https://github.com/signup/free
  * Send an email to pshannon AT fhcrc.org so that I can give you permissions to create your repo under Bioconductor.
@@ -15,5 +15,5 @@ Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate
  * On this same page you can edit your repo's <b>README.md</b> which (like this file you are currently reading) records the central documentation for your project.
  * Save your changes to README.md by clicking on the <b>Commit Changes</b> button found at the bottom right corner of the page.
  
-
+### 
  
