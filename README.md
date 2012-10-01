@@ -3,11 +3,11 @@ githubCribsheet
 
 ## Notes and tips for using github with Biocondcutor
 
-Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate repository (or 'repo') maintained under 
+Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate repository maintained under 
 
    https://github.com/Bioconductor
    
-### To create your own project (aka repository) do these things:
+### To create your own project (aka repository, or 'repo') do these things:
 
  * Register as a user:  https://github.com/signup/free
  * Send an email to pshannon AT fhcrc.org so that I can give you permissions to create your repo under Bioconductor.
