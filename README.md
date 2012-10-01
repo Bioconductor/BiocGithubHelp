@@ -16,7 +16,7 @@ Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate
  It has a '+' on it.
  * This takes you to a new page where you will be asked to name your project
  * On this same page you can edit your repo's <b>README.md</b> which (like this file you are currently reading) records the central documentation for your project.
- * Save your changes to README.md:  a <i>Commit Changes</i> button is at the bottom right corner of the page.
+ * Save your changes to README.md by clicking on the <b>Commit Changes</b> button found at the bottom right corner of the page.
  
 
  
