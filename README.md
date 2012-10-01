@@ -1,6 +1,3 @@
-githubCribsheet
-===============
-
 ## Notes and tips for using github with Biocondcutor
 
 Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate repository maintained under 
