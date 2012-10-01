@@ -14,11 +14,13 @@ Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate
  * This takes you to a new page where you will be asked to name your project.
  * On this same page you can edit your repo's <b>README.md</b> which (like this file you are currently reading) records the central documentation for your project.
  * Save your changes to README.md by clicking on the <b>Commit Changes</b> button found at the bottom right corner of the page.
- 
+
+### Setup your computer for remote github use
+
 ### Clone the project onto your own computer
 
  * cd toSomeDirectoryOfYourChoice
- * git clone git://github.com/Bioconductor/githubCribsheet.git with these results
+ * <code> git clone git://github.com/Bioconductor/githubCribsheet.git</code> with these results
      * a <b>local repo</b> is created 
      * a <b>working copy</b> is created
      * thus <b>three</b> versions of the code exist
