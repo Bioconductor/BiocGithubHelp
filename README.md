@@ -24,11 +24,15 @@ Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate
 ### Clone the project onto your own computer
 
  * cd toSomeDirectoryOfYourChoice
- * <code> git clone git://github.com/Bioconductor/githubCribsheet.git</code> with these results
+ * <code> git clone https://github.com/Bioconductor/githubCribsheet.git</code> with these results
      * a <b>local repo</b> is created 
      * a <b>working copy</b> is created
      * thus <b>three</b> versions of the code exist
-    
+
+### Using SSH keys
+ * If you want to use ssh keys instead of https to connect, see this guide: https://help.github.com/articles/generating-ssh-keys
+ * The command to clone the project is then <code>git clone git@github.com:Bioconductor/githubCribsheet.git</code>
+
 ### Overview of basic operations
 
  * Making changes to your <b>working copy</b> propagate them to <b>BOTH</b> of your repos:
@@ -37,7 +41,7 @@ Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate
     * update the <b>local repo</b>:  
         <code> git commit -m "added one line, modifying my local working copy" README.md</code>
     * update <b>github</b>: 
-        <code> git push git@github.com:Bioconductor/githubCribsheet.git</code>
+        <code> git push</code>
     * make sure your <b>local repo</b> and <b>working copy</b> have a record of the update 
       you just did to the <b>github repo</b>:   <code>git pull</code>
 
