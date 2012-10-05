@@ -54,4 +54,54 @@ Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate
  * Click the <b>Owners</b> button
  * Enter the new user's github id
 
+### From SVN to git and back ??
 
+Does this work? Who knows.
+
+I explored git / svn a little last night. It seems there is 'git svn'
+(separate from git but widely available), and that steps might be
+
+1. Make a repository on github, e.g., http://github.com/mtmorgan/test
+
+2. clone the svn repository locally
+
+  git svn clone \
+      https://hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/graph
+	  
+This pulls in all the revision history but I think instead it might
+make sense to limit that (e.g., to the last time the version was
+bumped during a release) by making a directory, initiating a git
+repository, fetching a particular revision from svn, and then rebasing
+to the current version
+	  
+    mkdir graph && cd graph
+      git svn init \
+          https://hedgehog.fhcrc.org/bioconductor/trunk/madman/Rpacks/graph
+    git svn fetch -r64680
+	git svn rebase
+				  
+and then I see
+				  
+	$ git log --oneline
+	4aea3d4 The following previously deprecated functions have been made
+	b11e47e bumped version numbers after creating 2.10 branch
+				  
+3. add information about the git repository
+
+    git remote add origin \
+	    http://github.com/Bioconductor-mentored/graph.git
+		
+4. push the svn clone to github
+
+    git push -u origin master
+  
+this gets us a github repository with a snapshot of our svn; my
+handiwork is at
+  
+    https://github.com/mtmorgan/test
+	
+We could then git going on all of our revisions and finally...
+	
+5. When done and ready to send back to Bioconductor's svn tree
+	
+	git svn dcommit 
