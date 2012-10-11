@@ -1,5 +1,7 @@
-## Notes and tips for using github with Biocondcutor
 
+## See the <a href="https://github.com/Bioconductor/githubCribsheet/wiki">wiki</a> for notes and tips for using github with Biocondcutor
+
+<!--
 Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate repository maintained under 
 
    https://github.com/Bioconductor
@@ -105,3 +107,5 @@ We could then git going on all of our revisions and finally...
 5. When done and ready to send back to Bioconductor's svn tree
 	
 	git svn dcommit 
+
+-->
