@@ -1,4 +1,4 @@
-## See the <a href="https://github.com/Bioconductor/githubCribsheet/wiki/cribsheet">wiki</a> for notes and tips for using github with Biocondcutor
+## See the <a href="https://github.com/Bioconductor/githubCribsheet/wiki/">wiki</a> for notes and tips for using github with Biocondcutor
 <!--
 Every bioc/fhcrc project (including this one, the githubCribsheet) is a separate repository maintained under 
 
